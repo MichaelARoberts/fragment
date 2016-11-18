@@ -1,0 +1,17 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "binstring": "^0.2.1",
+    "electron-prebuilt": "^0.37.8",
+    "jquery": "^2.2.2"
+  }
+}
