@@ -18,7 +18,3 @@ var runPython = function(script_loc, script_args, cb){
 
 
 }
-
-runPython('util/hex_util.py',['-bh','util/hex_util.py'], function(data){
-  console.log(hexToUTF(data))
-})
