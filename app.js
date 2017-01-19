@@ -13,7 +13,7 @@ app.on('window-all-closed', function() {
 })
 
 app.on('ready', function() {
-  mainWindow = new BrowserWindow({width: 800, height: 600})
+  mainWindow = new BrowserWindow({width: 800, height: 600, icon: __dirname + '/fragment_icon.png'})
   mainWindow.loadURL('file://' + __dirname + '/templates/main.html')
   mainWindow.webContents.openDevTools()
   mainWindow.on('closed', function() {
