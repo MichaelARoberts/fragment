@@ -9,12 +9,28 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="container-fluid">
+      <div class="col-xs-12">
+        <form class="form-inline">
+          <div class="form-group">
+            <input type="text" id="pathInput" class="form-control" placeholder="Enter File Path"/>
+            <button class="btn btn-primary" id="hexGenButton">Generate Hex</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-xs-6" id="hexBox" style="height:85vh;overflow-y:scroll;">
+
+      </div>
+      <div class="col-xs-6" id="textBox" style="height:85vh;overflow-y:scroll;">
+
+      </div>
+    </div>
 
     <script>window.$ = window.jQuery = require('jquery');</script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
     <script src="../scripts/typeConverter.js"></script>
     <script src="../scripts/pythonLauncher.js"></script>
     <script src="../scripts/hex/getHex.js"></script>
+    <script src="../scripts/main.js"></script>
   </body>
 </html>
